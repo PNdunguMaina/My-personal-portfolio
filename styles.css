@@ -359,7 +359,7 @@ h2 {
   position: absolute;
   width: 1px;
   height: 40px;
-  background: #555555;
+  background: #555;
   display: flex;
 }
 
@@ -588,7 +588,7 @@ h4 {
   list-style: none;
   gap: 29px;
   padding-left: 12px;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .button-works {
