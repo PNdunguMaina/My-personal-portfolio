@@ -43,7 +43,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .item-2 {
@@ -62,7 +62,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .item-3 {
@@ -81,7 +81,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .name-top {
@@ -103,7 +103,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .mail-button {
@@ -184,12 +184,13 @@ body {
   margin-left: 150px;
   left: 710px;
 }
+
 /* Content area */
 #main-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 114px 0px;
+  padding: 114px 0;
   gap: 88px;
   position: absolute;
   width: 1156px;
@@ -231,7 +232,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 448px;
   height: 485px;
@@ -254,19 +255,18 @@ h2 {
 }
 
 .solid {
-  height: 0px;
-  left: 0px;
-  right: 0px;
+  height: 0;
+  left: 0;
+  right: 0;
   top: 9px;
   border: 1px solid #646369;
-  top: 179px;
 }
 
 #abilities {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 446px;
   height: 224px;
@@ -281,9 +281,19 @@ h2 {
   line-height: 25px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
   gap: 15px;
 }
+
+.tags li {
+  width: 24px;
+  height: 20px;
+  font-weight: 500px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+
 .tech li:first-child {
   width: 137px;
   height: 16px;
@@ -377,6 +387,7 @@ h2 {
   margin-left: 335px;
   margin-right: 0;
 }
+
 /* works list */
 #recent-works {
   display: flex;
@@ -419,9 +430,9 @@ h3 {
 
 .border-h3 {
   position: inherit;
-  height: 0px;
-  left: 0px;
-  right: 0px;
+  height: 0;
+  left: 0;
+  right: 0;
   top: calc(50% - 0px / 2 + 0.5px);
   border: 1px solid #646369;
 }
@@ -478,20 +489,11 @@ h4 {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 307px;
   height: 40px;
   list-style: none;
-}
-
-.tags li {
-  width: 24px;
-  height: 20px;
-  font-weight: 500px;
-  font-size: 15px;
-  line-height: 20px;
-  color: #ffffff;
 }
 
 .button-works {
@@ -513,11 +515,12 @@ h4 {
 .button-works:hover {
   background: #241dee;
 }
+
 /* contact-us */
 #contact-us {
   display: grid;
   align-items: center;
-  padding: 114px 0px;
+  padding: 114px 0;
   position: absolute;
   width: 684px;
   height: 867px;
@@ -568,7 +571,7 @@ h5 {
 .user-name input {
   display: grid;
   padding: 0;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0 0;
   width: 684px;
   height: 48px;
 }
@@ -589,7 +592,6 @@ h5 {
 
 .mail-area input {
   width: 684px;
-  height: 48px;
   height: 48px;
   left: 0;
   right: 0;
