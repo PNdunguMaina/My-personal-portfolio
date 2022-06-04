@@ -80,6 +80,9 @@ body {
   margin-right: 8px;
 }
 
+.item-0 {
+  display: none;
+}
 .item-1 {
   align-items: center;
   padding: 10px 12px;
@@ -742,10 +745,9 @@ h5 {
   background: #cac6f8;
 }
 
-@media screen and (min-device-width: 760px) and (max-device-width: 1440px) {
+@media screen and (min-device-width: 375px) and (max-device-width: 500px) {
   body {
-    width: fit-content;
-    position: absolute;
-    justify-content: center;
+    position: fixed;
+    inset: 0;
   }
-}
+  
