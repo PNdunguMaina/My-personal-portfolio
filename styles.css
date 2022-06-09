@@ -128,12 +128,6 @@ h2 {
   color: #fff;
 }
 
-.abilities ul li {
-  display: flex;
-  list-style: none;
-  width: 100%;
-}
-
 .tags li {
   display: flex;
   flex: 1;
@@ -144,6 +138,12 @@ h2 {
   line-height: 20px;
   color: #fff;
   align-items: center;
+}
+
+.abilities ul li {
+  display: flex;
+  list-style: none;
+  width: 100%;
 }
 
 .abilities ul li:first-child {
