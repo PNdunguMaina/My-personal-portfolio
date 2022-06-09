@@ -134,10 +134,21 @@ h2 {
   width: 100%;
 }
 
+.tags li {
+  display: flex;
+  flex: 1;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  align-items: center;
+}
+
 .abilities ul li:first-child {
   color: #9490ff;
   margin-bottom: 10px;
-
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
@@ -252,23 +263,11 @@ h4 {
   margin-bottom: 40px;
 }
 
-.tags li {
-  display: flex;
-  flex: 1;
-  list-style: none;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
-  align-items: center;
-}
-
 .tags li span {
   position: absolute;
   width: 1px;
   height: 40px;
-  background: #555555;
+  background: #555;
 }
 
 .tag-1 {
