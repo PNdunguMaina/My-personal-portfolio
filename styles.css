@@ -478,6 +478,7 @@ h5 {
     text-align: center;
     color: #fff;
     text-decoration: none;
+    transition: font-size color;
   }
 
   .item-2 {
@@ -495,6 +496,7 @@ h5 {
     text-align: center;
     color: #fff;
     text-decoration: none;
+    transition: font-size color;
   }
 
   .item-3 {
@@ -511,6 +513,14 @@ h5 {
     text-align: center;
     color: #fff;
     text-decoration: none;
+    transition: font-size color;
+  }
+
+  .item-name-1:hover,
+  .item-name-2:hover,
+  .item-name-3:hover {
+    font-size: 18px;
+    color: #7d73fc;
   }
 
   .mail-bar {
@@ -520,7 +530,14 @@ h5 {
     top: 3px;
     width: 22px;
     right: 10.5%;
+    transition: height width;
   }
+
+  .mail-bar:hover {
+    height: 24px;
+    width: 28px;
+  }
+
 
   .menu-bar {
     display: none;
