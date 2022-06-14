@@ -40,7 +40,7 @@
 }
 
 button {
-  background-color: #7d73fc;
+  background-color: #9390ff;
   border-style: none;
 }
 
@@ -57,7 +57,7 @@ button {
   font-size: 12px;
   line-height: 24px;
   text-align: center;
-  color: #edecff;
+  color: #fff;
 }
 
 .button-works:hover,
@@ -381,7 +381,7 @@ h5 {
   padding: 12px;
   width: 89px;
   height: 48px;
-  background-color: #7d73fc;
+  background-color: #9390ff;
   font-weight: 500px;
   font-size: 12px;
   line-height: 24px;
